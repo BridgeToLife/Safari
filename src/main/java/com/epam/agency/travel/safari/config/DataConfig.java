@@ -34,7 +34,7 @@ public class DataConfig {
         dataSource.setDriverClassName(PROP_DATABASE_DRIVER);
         dataSource.setPassword(PROP_DATABASE_PASSWORD);
         dataSource.setUrl(PROP_DATABASE_URL);
-
+        dataSource.setUsername(PROP_DATABASE_USERNAME);
 
         return dataSource;
     }
